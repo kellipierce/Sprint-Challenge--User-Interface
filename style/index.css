@@ -72,7 +72,6 @@ p {
 }
 
 
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -271,104 +270,57 @@ nav a {
 /*Media Queries*/
 
 
-@media (max-width: 500px) {
-    nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-  
-  .boxes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
- 
-  .top-content h2 { 
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-  }
-  
-  .top-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .middle-content h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .bottom-content h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    
-  }
-  
-  .bottom-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-
-  nav a:hover {
-    background-color: grey;
-    color: black;
-  }
-}
-
 @media (max-width: 800px) {
-    nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-  
-  .boxes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
- 
-  .top-content h2 { 
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-  }
-  
-  .top-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .middle-content h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .bottom-content h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    
-  }
-  
-  .bottom-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
 
-  nav a:hover {
-    background-color: grey;
-    color: black;
-  }
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.top-content h2 { 
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle-content h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-content h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+nav a:hover {
+  background-color: grey;
+  color: black;
+}
+}
+
+@media (max-width: 500px) {
+
+  
