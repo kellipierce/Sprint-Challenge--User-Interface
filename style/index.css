@@ -81,9 +81,10 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
+	padding-right: 100px;
 }
 
 .middle-content {
@@ -93,7 +94,7 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 20;
 }
 
 .middle-content .boxes {
@@ -103,10 +104,10 @@ p {
 }
 
 .middle-content .boxes .box1 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: teal; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -114,10 +115,10 @@ p {
 }
 
 .middle-content .boxes .box2 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: gold; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -125,10 +126,10 @@ p {
 }
 
 .middle-content .boxes .box3 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: cadetblue; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -136,10 +137,10 @@ p {
 }
 
 .middle-content .boxes .box4 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: coral; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -147,10 +148,10 @@ p {
 }
 
 .middle-content .boxes .box5 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: crimson; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -158,10 +159,10 @@ p {
 }
 
 .middle-content .boxes .box6 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: forestgreen; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -169,10 +170,10 @@ p {
 }
 
 .middle-content .boxes .box7 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: darkorchid; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -180,10 +181,10 @@ p {
 }
 
 .middle-content .boxes .box8 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: hotpink; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -191,10 +192,10 @@ p {
 }
 
 .middle-content .boxes .box9 {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: indigo; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -202,10 +203,10 @@ p {
 }
 
 .middle-content .boxes .box10{
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: dodgerblue; 
-    margin: 20px 2.5%;
+    margin: 0px 2.5% 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -289,9 +290,11 @@ nav a {
 }
 
 .top-content {
-  display: flex;
+  /* display: flex; */
+  width: 800px;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  margin: 0 2% 20px;
 }
 
 .middle-content h2 {
@@ -320,7 +323,12 @@ nav a:hover {
 }
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
 
   footer nav {
     display: flex;
@@ -328,10 +336,8 @@ nav a:hover {
     align-items: center;
   }
 
- .top-content .text-container {
-   width: 65%;
-   
-   
- }
+.top-content {
+  width: 500px;
+  margin: 0 5% 20px;
 }
 
